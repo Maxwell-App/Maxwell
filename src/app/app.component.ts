@@ -3,21 +3,11 @@ import { Component } from '@angular/core'
 @Component({
   selector: 'app-root',
   template: `
-
-    <div>
-      HELLO WORLD
-    </div>
+    HELLO WORLD
     <router-outlet></router-outlet>
-
-`,
-
-  styles: [`
-    * {
-      font-family: 'Rubik';
-    },
-
-`]
+  `,
+  styles: []
 })
 export class AppComponent {
-  title = 'Maxwell';
+  title = 'maxwell'
 }
